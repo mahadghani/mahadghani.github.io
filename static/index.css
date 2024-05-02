@@ -1,0 +1,95 @@
+.main_container img {
+  width: 340px;
+  border-radius: 25px 0 0 25px;
+  margin-right: 10px;
+}
+
+.main_container div {
+  width: 450px;
+  background-color: #dad7d0;
+  border-radius: 0 25px 25px 0;
+  padding: 20px;
+}
+
+.main_container {
+  margin-top: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  text-align: center;
+  font-size: 50px;
+  color: #1d6520;
+  font-weight: 900;
+  margin: 40px 0;
+}
+
+.introduction {
+  font-size: 25px;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+}
+
+/*********************************************************************************/
+/*****************************EXPERIENCE******************************************/
+/*********************************************************************************/
+
+.experience {
+  display: flex;
+  text-align: center;
+  margin-top: 125px;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua,
+    Georgia, serif;
+}
+
+.work,
+.project {
+  flex: 1;
+}
+
+.work {
+  border-right: 2px solid #bdd1be;
+}
+
+.experience h2 {
+  font-size: 35px;
+  color: #1d6520;
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+
+.work div,
+.project div {
+  margin: 0;
+  padding: 0;
+}
+
+.project img {
+  width: 400px;
+}
+
+.work_item img {
+  width: 70px;
+  margin-top: 75px;
+}
+
+.work_item {
+  margin: 100px;
+}
+
+.work_item p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.project_item p {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 550;
+}
