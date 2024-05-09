@@ -1,0 +1,88 @@
+html {
+  background-color: #f0f2ec;
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 641px) and (max-device-width: 1024px) {
+}
+
+@media (max-width: 640px) {
+  header {
+    height: 7.5%;
+  }
+
+  header h1 {
+    height: 60%;
+    margin-left: 4%;
+    align-content: center;
+  }
+
+  h1 a {
+    font-size: 400%;
+  }
+
+  .container {
+    margin-top: 125px;
+  }
+
+  header nav,
+  .left_bar {
+    display: none;
+  }
+
+  .main_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main_container img,
+  .main_container div {
+    border-radius: 0;
+    width: auto;
+    width: 80%;
+  }
+
+  .main_container {
+    padding: 0;
+  }
+
+  .main_container img {
+    margin-bottom: 50px;
+  }
+
+  .name {
+    font-size: 70px;
+  }
+
+  .introduction {
+    font-size: 50px;
+    padding: 25px;
+  }
+
+  .experience {
+    display: block;
+  }
+
+  .work {
+    margin-top: 300px;
+    border: none;
+    margin-bottom: 200px;
+  }
+
+  .work_item div p,
+  .project_item p,
+  .skills li,
+  .contact p {
+    font-size: 40px;
+  }
+
+  .experience h2,
+  .skills h2,
+  .contact h2 {
+    font-size: 70px;
+  }
+
+  .project_item img {
+    width: 70%;
+  }
+}
