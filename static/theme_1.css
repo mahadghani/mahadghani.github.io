@@ -1,0 +1,30 @@
+html {
+  background-color: #fffffc;
+}
+
+header,
+.contact_form button[type="submit"] {
+  background-color: #000000;
+}
+
+nav ul li a,
+header a {
+  color: #fffffc;
+}
+
+.left_bar,
+.main_container div,
+.contact_form button[type="submit"]:hover {
+  background-color: #beb7a4;
+}
+
+.name,
+.project h2,
+.skills h2,
+form h2 {
+  color: #000000;
+}
+
+nav ul li a:hover {
+  color: #beb7a4; /* Add your desired hover color */
+}
