@@ -306,6 +306,14 @@ label p {
   margin-bottom: 5px;
 }
 
+form p {
+  padding-left: 10px;
+}
+
+form button {
+  width: 383px;
+}
+
 @media (max-width: 550px) {
   form label,
   form button {
