@@ -244,49 +244,50 @@ strong {
 
 /************* FORM *************/
 
-form h2 {
+form {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
   font-size: 35px;
   color: #1d6520;
   margin-top: 125px;
   margin-bottom: 30px;
 }
 
-form label {
-  display: block;
-}
-
 form p {
-  font-size: 20px;
+  font-size: 22px;
+  padding-left: 20px;
 }
 
-.contact_form {
-  max-width: 400px;
+form label,
+form button {
+  width: 400px;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 5px;
 }
 
-.contact_form label {
-  display: block;
-  margin-bottom: 10px;
+form label input,
+form label p,
+form label textarea {
+  text-align: start;
+  width: 90%;
+}
+
+form textarea {
+  height: 150px;
 }
 
 form input,
 form textarea {
-  width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid black;
 }
 
-.contact_form textarea {
-  height: 150px;
-}
-
 .contact_form button[type="submit"] {
-  width: 100%;
   background-color: #1d6520;
   color: white;
   border: none;
@@ -303,4 +304,18 @@ form textarea {
 
 label p {
   margin-bottom: 5px;
+}
+
+@media (max-width: 550px) {
+  form label,
+  form button {
+    width: 350px;
+  }
+}
+
+@media (max-width: 475px) {
+  form label,
+  form button {
+    width: 275px;
+  }
 }
